@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aesthetic Journal ✨</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app">
+    <h1>🌸 My Aesthetic Journal 🌸</h1>
+    <p class="subtitle">What's your vibe today?</p>
+
+    <div class="input-area">
+      <textarea id="journalInput" placeholder="Write your thoughts..."></textarea>
+      <select id="moodSelect">
+        <option value="😊">😊 Happy</option>
+        <option value="😢">😢 Sad</option>
+        <option value="🌙">🌙 Calm</option>
+        <option value="🔥">🔥 Excited</option>
+        <option value="🌸">🌸 Chill</option>
+      </select>
+      <button id="saveBtn">Save Entry</button>
+    </div>
+
+    <h2>📖 My Entries</h2>
+    <div id="entries" class="entries"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
